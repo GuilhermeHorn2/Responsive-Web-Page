@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+   <header>
+    <div class="container container-nav">
+     <div class="info">
+      <h1 class="title">Long Long long Title</h1>
+      <p class="sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+     </div>
+     <nav>
+      <ul>
+       <li class="one"><a href="#home" class="current">Home</a></li>
+       <li class="two"><a href="about.html" target="_blank" >About</a></li>
+       <li class="three"><a href="#recent" target="_blank">Recent Posts</a></li>
+      </ul>
+     </nav>
+    </div>
+   </header>
+
+   <div class="container container-nav">
+    <main role="main" >
+     <article class="article-featured" >
+      <h2 class="article-title" id="home">Another Long Title</h2>
+      <img src="./images2/pexels-photo2.jpeg" alt="" class="article-image" >
+      <p class="article-info" >Lorem ipsum dolor sit  </p>
+      <p class="article-body" ><span class="first" >First phrase first phrase</span> lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni <span><a href="#">link to another post</a></span> explicabo aliquam voluptatibus atque deserunt commodi totam cumque quo molestias.</p>
+      <a href="#" class="article-read-more" >CONTINUE READING</a>
+     </article>
+     <article class="article-recent" >
+      <div class="article-recent-main" >
+       <h2 class="article-title" id="recent" >S-Ttile</h2>
+       <p class="article-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nesciunt error delectus aliquam placeat harum rem officia praesentium non omnis.</p>
+      </div>
+      <div class="article-recent-secondary">
+       <img src="./images2/pexels-photo2.jpeg" alt=""  >
+       <p class="article-info" >Lorem ipsum dolor sit amet</p>
+       <a href="#" class="article-read-more">CONTINUE READING</a>
+      </div>
+     </article>
+     <article class="article-recent">
+      <div class="article-recent-main">
+       <h2 class="article-title">S-Title</h2>
+       <p class="article-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ad vel delectus quaerat et aut, quo veniam nihil iure eaque?</p>
+      </div>
+      <div class="article-recent-secondary ">
+       <img src="./images2/pexels-photo2.jpeg" alt="">
+       <p class="article-info" >Lorem, ipsum dolor sit </p>
+       <a href="#" class="article-read-more">CONTINUE READING</a>
+      </div>
+     </article>
+     <article class="article-recent">
+      <div class="article-recent-main">
+       <h2 class="article-title">S-Title</h2>
+       <p class="article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ipsam saepe facere quod iusto corrupti itaque? Architecto molestias saepe totam? <p>
+      <!--</div> -->
+      <div class="article-recent-secondary">
+       <img src="./images2/pexels-photo2.jpeg" alt="">
+       <p class="article-info" >Lorem ipsum dolor sit amet. </p>
+       <a href="#" class="article-read-more">CONTINUE READING</a>
+      </div>
+     </article>
+    </main>
+    <aside class="sidebar" >
+     <div class="sidebar-widget">
+      <h2 class="widget-title">S-Title</h2>
+      <img src="./images2/pexels-photo2.jpeg" alt="" class="widget-image">
+      <p class="widget-body" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+     </div>
+
+     <div class="sidebar-widget">
+
+      <h2 class="widget-title"></h2>
+      <div class="widget-recent-post" >
+       <h3 class="widget-recent-post-title dif">S-Title</h3>
+       <img src="./images2/pexels-photo2.jpeg" alt="" class="widget-image">
+      </div>
+      <div class="widget-recent-post">
+       <h3 class="widget-recent-post-title">S-Title</h3>
+       <img src="./images2/pexels-photo2.jpeg" alt="" class="widget-image">
+      </div>
+      <div class="widget-recent-post">
+       <h3 class="widget-recent-post-title">S-Title</h3>
+       <img src="./images2/pexels-photo2.jpeg" alt="" class="widget-image">
+      </div>
+     </div>
+     </div>
+
+    
+    </aside>
+   </div>
+ 
+   <footer>
+    <div class="under" >
+     <h4 class="end">Finish</h4>
+     <p>2021 &copy;</p>
+    </div>
+   </footer>
+  
+
+  </html> 
+ </body>
+ </html>
