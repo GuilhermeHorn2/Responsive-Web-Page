@@ -1,0 +1,253 @@
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  background: #f8f8f8;
+  padding: 2em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin-left: 2em;
+  letter-spacing: 0.25rem;
+}
+nav a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 700;
+  padding: 00.25rem 0;
+}
+nav a:hover,
+nav a:focus {
+  color: #1792d2;
+}
+h1 {
+  font-weight: 400;
+  color: #143774;
+  font-size: 2rem;
+  margin: 0;
+}
+.sub-title {
+  font-weight: 700;
+  color: #1792d2;
+  font-size: 0.75rem;
+  margin: 0;
+}
+.current {
+  border-bottom: 1px solid #707070;
+}
+.current:hover {
+  color: #707070;
+}
+/*@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+  .header {
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .current {
+    border-bottom: white;
+  }
+}*/
+/*Body of the page*/
+h1,
+h2,
+h3 {
+  font-family: fantasy;
+  font-weight: 400;
+  color: #143774;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.125rem;
+  max-width: 980px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.85);
+}
+a {
+  text-decoration: none;
+  color: #1792d2;
+}
+span {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.9);
+}
+a:hover,
+a:focus {
+  color: #143774;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0px;
+}
+.sub-title {
+  font-weight: 700;
+  color: #1792d2;
+  font-size: 0.75rem;
+  margin: 0px;
+}
+
+/*imgs*/
+img {
+  max-width: 100%;
+  display: block;
+  width: 60%;
+  object-fit: cover;
+}
+
+.article-featured img {
+  width: 100%;
+}
+.article-recent-secondary img {
+  width: 70%;
+}
+/*end of imgs*/
+
+.article-title {
+  font-size: 1.5rem;
+}
+.article-read-more,
+.article-info {
+  font-size: 0.875rem;
+}
+.article-read-more {
+  color: #1792d2;
+  text-decoration: none;
+  font-weight: 700;
+}
+.article-read-more:hover,
+.article-read-more:focus {
+  color: #143774;
+  text-decoration: underline;
+}
+.sidebar-widget {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-recent-secondary {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+article {
+  border-bottom: 0.5px solid #707070;
+}
+.sidebar-widget {
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.dif {
+  margin-top: 30px;
+}
+.widget-recent-post:last-child {
+  border: 0;
+  margin: 0;
+}
+
+footer {
+  max-width: 900px;
+  display: flex;
+  background-color: #143774;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+footer h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer p {
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8rem;
+}
+
+@media (min-width: 675px) {
+  .container-nav {
+    flex-direction: row;
+  }
+  .sidebar-widget {
+    transform: translateY(-460px);
+    margin-left: 30px;
+  }
+  .widget-image {
+    width: 90%;
+  }
+  .sidebar-widget {
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  .widget-recent-post-title {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .dif {
+    border: none;
+    margin-top: -25px;
+  }
+  .widget-recent-post {
+    margin-bottom: 5px;
+  }
+}
+.ani {
+  display: flex;
+}
+/*
+.an {
+  animation: text_reveal_box 0.3s ease forwards;
+  animation-delay: 1s;
+}
+.ther {
+  animation: text_reveal_box 0.3s ease forwards;
+  animation-delay: 2s;
+}
+.third {
+  animation: text_reveal_box 0.3s ease forwards;
+  animation-delay: 3s;
+}
+*/
+/* keyframes */
+/*@keyframes text_reveal_box {
+  50% {
+    color: rgba(65, 105, 225, 0.5);
+  }
+  100% {
+    color: royalblue;
+    font-weight: bolder;
+  }
+}*/
+
+/* end of key frames*/
+
+/*End of Body*/
