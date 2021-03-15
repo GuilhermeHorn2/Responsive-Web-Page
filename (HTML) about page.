@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+
+ <body>
+  <header>
+   <div class="container container-nav">
+    <div class="info">
+     <h1 class="title">Long Long long Title</h1>
+     <p class="sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+    </div>
+    <nav>
+     <ul>
+      <li class="one"><a href="#home" class="current">Home</a></li>
+      <li class="two"><a href="#">About</a></li>
+      <li class="three"><a href="#recent">Recent Posts</a></li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+
+  
+
+     <article class="article-featured">
+      <h2 class="article-title" id="home">About Me Page</h2>
+      <img src="./images2/pexels-photo2.jpeg" alt="" class="article-image">
+      <p class="article-info">Lorem ipsum dolor sit </p>
+      <p class="article-body"><span class="first">First phrase first phrase</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, corporis eaque. Ea sunt maiores vitae in neque exercitationem voluptate, officiis molestiae excepturi aperiam laboriosam assumenda id, illum, quas optio quis! Iusto perspiciatis facilis earum natus harum quibusdam voluptas, eligendi pariatur. Odit nam voluptas quibusdam numquam ut reiciendis repudiandae accusamus tempora expedita qui, rem illum asperiores aspernatur accusantium quia fuga? Amet aspernatur veniam fugiat nam, reprehenderit veritatis placeat molestiae, illo facere ducimus voluptatum sint quia vero voluptas quidem vel? Corporis adipisci et deserunt nostrum consequatur hic quis doloremque atque dolorem. Soluta, sapiente iure quibusdam est sit aliquid sunt eum at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illum deserunt delectus obcaecati, id deleniti nulla odit reprehenderit optio, minima laborum ut ipsum voluptate maxime ab! Blanditiis beatae quasi nam adipisci rem recusandae aut velit porro officiis, temporibus distinctio voluptate ducimus architecto, odio quae nemo mollitia expedita maxime tenetur deserunt laboriosam totam iure praesentium voluptatum? Error eligendi impedit cupiditate officiis placeat neque odit corrupti, illum delectus, numquam soluta nemo reprehenderit deleniti nesciunt dolores veniam eius? Labore consequatur nemo ratione doloremque ullam minus, beatae amet illo esse nostrum, necessitatibus qui nam ad numquam illum totam quae odio a maxime. Repellendus, autem!
+       adipisicing elit. Ducimus magni  explicabo aliquam voluptatibus atque
+       deserunt commodi totam cumque quo Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quos numquam reiciendis omnis officia veniam nisi? Aliquid voluptatibus, rem corporis ipsa voluptatem asperiores illo. Expedita at ab explicabo, inventore id beatae ratione maiores labore quod sit quasi voluptatibus necessitatibus ad! Ullam cum quam commodi, explicabo accusantium fugiat quo, officia nesciunt excepturi iusto velit consectetur quas laboriosam soluta officiis incidunt reiciendis omnis facere labore nobis recusandae dolor consequatur blanditiis ratione. Quidem at delectus saepe perspiciatis officiis placeat veritatis sit debitis voluptatem ex qui itaque, consequatur, nam quibusdam beatae facere soluta eligendi magni nemo optio? Delectus quisquam repudiandae exercitationem pariatur, asperiores quod.</p>
+      
+     </article>
+  
+ </body>    
